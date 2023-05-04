@@ -135,10 +135,25 @@
         android:layout_height="wrap_content"
         android:orientation="Vertical">
 
+        <TextView
+            android:id="@+id/tvDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_cost" />
 
+        <TextView
+            android:id="@+id/tvDisplay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/each_pays" />
 
 
     </LinearLayout>
+
+
+
+
+
 
 
 

@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
     RadioButton rbPayCash;
     RadioButton rbPayNow;
 
+    TextView tvDisplay;
+    TextView tvDisplay2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
         btnReset=findViewById(R.id.buttonReset);
         rbPayCash=findViewById(R.id.radioButtonPayCash);
         rbPayNow=findViewById(R.id.radioButtonPayPayNow);
+        tvDisplay=findViewById(R.id.tvDisplay);
+        tvDisplay2=findViewById(R.id.tvDisplay2);
 
 
 

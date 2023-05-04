@@ -13,4 +13,6 @@
     <string name="cash">Cash</string>
     <string name="split">Split</string>
     <string name="reset">Reset</string>
+    <string name="each_pays">Each pays: $</string>
+    <string name="total_cost">Total Cost: $</string>
 </resources>
