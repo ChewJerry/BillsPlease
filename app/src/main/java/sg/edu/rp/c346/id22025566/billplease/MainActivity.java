@@ -121,14 +121,14 @@ public class MainActivity extends AppCompatActivity {
                 double each = total/stringResponsePax;
 
 
-                tvDisplay1.setText("Total Cost: $" + total);
+                tvDisplay.setText("Total Cost: $" + total);
 
-                if (rbPayCash.isChecked()){
+                if (rbPayNow.isChecked()){
                     tvDisplay2.setText("Each pays: $" + each + " to " + no);
 
 
                 }
-                if (rbPayNow.isChecked()){
+                if (rbPayCash.isChecked()){
                     tvDisplay2.setText("Each pays: $" + each + " in cash");
                 }
 
